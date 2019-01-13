@@ -1,4 +1,4 @@
-# Stamp-clicky-game
+# Stamp-clicky-game . https://dinhdothuy.github.io/Stamp-clicky-game
 A memory game with React.
 
 The application renders different images to the screen. Each image listens for click events.
