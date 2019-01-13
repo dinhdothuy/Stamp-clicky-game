@@ -29,7 +29,7 @@ class App extends Component {
         const sameStamp = this.state.unselectedStamps.find(item => item.name === name);
 
         if(sameStamp === undefined) {
-            // failure to select a new dog
+            // failure to select other stamp
             this.setState({ 
                 message: "You guessed incorrectly!",
                 topScore: (this.state.curScore > this.state.topScore) ? this.state.curScore : this.state.topScore,
@@ -39,7 +39,7 @@ class App extends Component {
             });
         }
         else {
-            // success to select a new dog
+            // success to select different stamp
             const otherStamp = this.state.unselectedStamps.filter(item => item.name !== name);
             
             this.setState({ 
