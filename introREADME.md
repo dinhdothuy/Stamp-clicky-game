@@ -13,3 +13,6 @@ To deploy on github:
 
 https://facebook.github.io/create-react-app/docs/deployment
 
+To deploy on heroku:
+
+https://github.com/mars/create-react-app-buildpack
