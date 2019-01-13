@@ -1,3 +1,24 @@
+Stamp-clicky-game . https://dinhdothuy.github.io/Stamp-clicky-game
+A memory game with React.
+
+The application renders different images to the screen. Each image listens for click events.
+
+The application keeps track of the user's score. The user's score will be incremented when clicking an image for the first time. The user's score will be reset to 0 if they click the same image more than once.
+
+Every time an image is clicked, the images rendered to the page should shuffle themselves in a random order.
+
+Once the user's score is reset after an incorrect guess, the game should restart.
+
+To deploy on github:
+
+https://facebook.github.io/create-react-app/docs/deployment
+
+To deploy on heroku:
+
+https://github.com/mars/create-react-app-buildpack
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
